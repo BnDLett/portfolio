@@ -1,0 +1,48 @@
+body {
+    background-color: #151515;
+
+    color: #c2c2c2;
+    font-size: 12pt;
+}
+
+h1 {
+    color: #cbcbcb
+}
+
+h2 {
+    color: #cbcbcb
+}
+
+.center-body {
+    --target-color: #1e1d1d;
+
+    background-color: var(--target-color);
+
+    border: 2pt solid var(--target-color);
+    border-radius: 10pt;
+
+    margin: auto;
+    margin-top: 10pt;
+    padding: 5pt;
+
+    max-width: 90%;
+    min-height: 90%;
+}
+
+/*
+.inner-body {
+    --target-color: #353131;
+
+    background-color: var(--target-color);
+
+    border: 2pt solid var(--target-color);
+    border-radius: 10pt;
+
+    margin: auto;
+    margin-top: 10pt;
+    padding: 5pt;
+
+    max-width: 80%;
+    min-height: 80%;
+}
+*/
