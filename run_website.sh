@@ -1,5 +1,6 @@
 #!/bin/sh
 SCRIPT_PATH=$(dirname "$SCRIPT")
+cd "$SCRIPT_PATH" || (echo "Failed to start program." && exit)
 
 echo "Starting auto-updater job."
 "$SCRIPT_PATH"/update_website.sh &
