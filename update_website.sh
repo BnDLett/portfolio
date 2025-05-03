@@ -1,6 +1,6 @@
 #!/bin/sh
 
-SCRIPT_PATH=$(dirname "$SCRIPT")
+SCRIPT_PATH=$(dirname "$(realpath "$0")")
 cd "$SCRIPT_PATH" || (echo "Failed to start program." && exit)
 
 while true
