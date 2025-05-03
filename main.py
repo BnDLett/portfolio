@@ -19,9 +19,9 @@ def index():
     return render_template("index.html", age=current_age)
 
 
-# @app.route("/images/thumb")
-# def thumb():
-#     return send_file("static/thumb.png", mimetype='image/png')
+@app.route("/images/thumb")
+def thumb():
+    return send_file("static/thumb.png", mimetype='image/png')
 
 
 if __name__ == "__main__":
